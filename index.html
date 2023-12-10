@@ -3,6 +3,19 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>-</title>
+        <meta name="title" content="zvyz.live"/>
+        <meta name="description" content="282bc9e5231a26550e7b2c12d12a99f916a2046c"/>
+
+        <!-- Facebook -->
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="zvyz.live"/>
+        <meta property="og:description" content="282bc9e5231a26550e7b2c12d12a99f916a2046c"/>
+
+        <!-- Twitter -->
+        <meta property="twitter:title" content="zvyz.live"/>
+        <meta property="twitter:description" content="282bc9e5231a26550e7b2c12d12a99f916a2046c"/>
+
+        <!-- Style -->
         <style>
             body {
                 background-color: black;
@@ -31,7 +44,7 @@
         let _I = 1;
         let _D = 1;
 
-        function _update() {
+        function _Update() {
             document.title = _I === 0 ? "-" : _T.substring(0, _I);
 
             if (_I === _T.length || _I === 0) {
@@ -41,6 +54,6 @@
             _I += _D;
         }
 
-        setInterval(_update, 400);
+        setInterval(_Update, 400);
     </script>
 </body>
